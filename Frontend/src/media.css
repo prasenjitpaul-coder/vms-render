@@ -1,0 +1,1088 @@
+@media (min-width: 320px) and (max-width: 520px) {
+  body {
+    overflow-x: hidden;
+  }
+  .NavbarMain {
+    height: 10vw;
+    width: 100vw;
+    background-color: rgb(235, 216, 192);
+    display: flex;
+    align-items: center;
+    padding: 0px 5vw;
+    position: relative;
+    justify-content: space-between;
+  }
+  .NavbarProfile {
+    width: 5vw;
+  }
+  .NavbarLogo img {
+    height: 5vw;
+  }
+  .NavbarBurger img {
+    height: 4.5vw;
+    padding: 0.5vw;
+    border-radius: 5px;
+    background-color: rgba(255, 200, 127, 0.151);
+    box-shadow: 0px 0px 5px 0.5px rgb(128, 128, 128);
+    cursor: pointer;
+  }
+  .NavbarUser {
+    height: 30vw;
+    background-color: rgb(129, 129, 129);
+    width: 40%;
+
+    text-align: end;
+    position: absolute;
+    right: 60%;
+    opacity: 0;
+    pointer-events: none;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.6s ease-in-out;
+    z-index: 9999;
+    display: flex;
+  }
+  .NavbarUser.open {
+    right: 0%;
+    opacity: 1;
+
+    pointer-events: auto;
+  }
+  .clNavbar {
+    height: 5%;
+    background-color: rgb(255, 200, 127);
+  }
+  .UserText {
+    padding: 0px 4px;
+    font-size: 3.5vw;
+    color: rgb(255, 255, 255);
+  }
+  .NavbarEmailBox p {
+    font-size: 3.5vw;
+    margin-bottom: 3px;
+  }
+
+  .NavbarEmailBox button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 6vw;
+    width: 30vw;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 200, 127);
+    font-size: 3.2vw;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px black;
+    transition: 0.3s ease-in-out;
+  }
+  .NavbarEmailBox button:hover {
+    box-shadow: 0px 0px 5px 1px rgb(255, 200, 127);
+    background-color: rgb(190, 172, 139);
+  }
+  .SidebarMain {
+    background-color: aliceblue;
+    background-color: rgba(235, 216, 192, 0.753);
+  }
+  .Sidebar {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px 2px;
+    position: relative;
+  }
+  .Sidebar p {
+    font-size: 3.3vw;
+    cursor: pointer;
+  }
+  .AdminMain {
+    width: 100vw;
+    height: calc(100vh - 19vw);
+    background-color: azure;
+    display: flex;
+  }
+  .AdminBox {
+    width: 90%;
+    padding: 15px;
+    height: 90%;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+  }
+  .AdminTaskBox {
+    width: 48%;
+    height: 22%;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    box-shadow: 0px 0px 15px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .AdminTaskBox p {
+    text-align: center;
+    font-size: 3.5vw;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .AdminTaskBox h3 {
+    font-size: 3.5vw;
+  }
+  .AdminTaskBox img {
+    height: 15vw;
+
+    margin-bottom: 10px;
+  }
+  .LoginMain {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    display: flex;
+  }
+
+  .RegisterMain {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    display: flex;
+  }
+
+  .LoginCard {
+    width: 90%;
+    height: 100vw;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin: auto;
+
+    border-radius: 10px;
+  }
+
+  .RegisterCard {
+    width: 90%;
+    height: 100vw;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin: auto;
+
+    border-radius: 10px;
+  }
+
+  .loginP {
+    font-size: 5vw;
+    margin-left: 20px;
+    margin-bottom: 6.5vw;
+  }
+
+  .registerP {
+    font-size: 4.7vw;
+    margin-left: 20px;
+    margin-bottom: 6.5vw;
+  }
+
+  .LoginInputFields {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+
+  .RegisterInputfield {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+
+  .LoginInputFields label {
+    font-size: 4.5vw;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .RegisterInputfield label {
+    font-size: 4.3vw;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .RegisterInputfield input {
+    border: none;
+    outline: none;
+    height: 6vw;
+    background-color: rgba(226, 226, 226, 0.459);
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .LoginInputFields input {
+    border: none;
+    outline: none;
+    height: 6vw;
+    background-color: rgba(226, 226, 226, 0.459);
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .RegisterRadioBtn {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+  }
+
+  .radioreg {
+    display: flex;
+    align-items: center;
+  }
+
+  .radioreg label {
+    font-size: 3.3vw;
+  }
+
+  .LoginCard form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .RegisterCard form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginForgetPassword {
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 12vw;
+  }
+
+  .loginForgetPassword p {
+    color: rgba(255, 0, 0, 0.795);
+    cursor: pointer;
+    font-size: 3.5vw;
+  }
+
+  .loginBTN {
+    width: 40%;
+    height: 7vw;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    font-size: 3.5vw;
+    color: rgba(0, 0, 0, 0.678);
+    margin: 0 auto;
+  }
+
+  .registerBTN {
+    width: 40%;
+    height: 7vw;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    font-size: 3.2vw;
+    color: rgba(0, 0, 0, 0.678);
+    margin: 0 auto;
+    margin-top: 1vw;
+  }
+
+  .registerBTN:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .loginBTN:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .forNewUser {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3.5vw;
+  }
+
+  .forOldUser {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3.5vw;
+  }
+
+  .forVisitor {
+    text-align: center;
+    font-size: 3vw;
+  }
+  .Footerh5 {
+    font-weight: 1600;
+  }
+
+  /*  */
+  .adminESMain {
+    background-color: aliceblue;
+    height: calc(100vh - 19vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .UserDetails {
+    height: 90%;
+    width: 97%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.726);
+    background-color: rgb(235, 216, 192);
+    overflow: hidden;
+  }
+  .UserAdd {
+    height: 5%;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.616);
+    background-color: rgba(240, 255, 255, 0.39);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .UserAdd button img {
+    height: 3.5vw;
+    margin-right: 5px;
+  }
+  .UserAdd button {
+    font-size: 3vw;
+    display: flex;
+    height: 70%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #69f59f;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.651);
+    border: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .UserSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .UserSearch input {
+    height: 10%;
+    width: 25%;
+    border-radius: 3px;
+    padding-left: 3px;
+    font-size: 2.9vw;
+
+    border: 1px solid rgba(0, 0, 0, 0.452);
+  }
+  .UserSearch p {
+    font-size: 3vw;
+  }
+  .UserInfo {
+    padding: 0px 5px;
+  }
+  .UserInfoBoxOuter {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  .UserInfoBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+  }
+  .p1 {
+    width: 5%;
+    margin-right: 2%;
+  }
+  .p2 {
+    width: 22%;
+    margin-right: 7%;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .p3 {
+    width: 22%;
+    margin-right: 5%;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .p4 {
+    width: 22%;
+    margin-right: 7%;
+  }
+  .p5 {
+    border-right: 1px solid #707070;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p5 img {
+    width: 58%;
+  }
+  .UserInfoBox p {
+    font-size: 2.9vw;
+    padding: 2px;
+    padding-left: 2px;
+    border-left: 1px solid #707070;
+  }
+  .adminAppointmentMain {
+    background-color: aliceblue;
+    height: calc(100vh - 19vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .VisitorDetails {
+    height: 90%;
+    width: 97%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.726);
+    background-color: rgb(235, 216, 192);
+    overflow: hidden;
+  }
+  .adminUser {
+    color: #4e4e4ebd;
+  }
+  .adminUser .p5 img {
+    filter: grayscale(100%);
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  .LoadingMain {
+    display: flex;
+    height: calc(100vh - 8.7vh);
+    align-items: center;
+    justify-content: center;
+  }
+  .LoadingBox {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: conic-gradient(
+      rgb(194, 194, 194) 1%,
+      black 100%,
+      transparent 100%
+    );
+    display: flex;
+    align-items: center;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .LoadingBoxInside {
+    height: 5px;
+    width: 5px;
+  }
+  .LoadingBoxInside2 {
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    background-color: rgb(194, 194, 194);
+  }
+  .Loadingh1 {
+    animation: Loadingh1 1.1s linear infinite;
+  }
+  @keyframes Loadingh1 {
+    0% {
+      color: black;
+    }
+    50% {
+      color: rgba(0, 0, 0, 0.39);
+    }
+    100% {
+      color: black;
+    }
+  }
+  .UnauthorizedMain {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+    background-color: #ffffff;
+  }
+  .UnauthorizedMainInside {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .UnauthorizedMainInside h2 {
+    font-size: 4.5vw;
+  }
+  .UnauthorizedMainInside p {
+    margin-top: 10px;
+    font-size: 3vw;
+  }
+  .UnauthorizedMainInside p a {
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+  }
+}
+@media (min-width: 1220px) and (max-width: 1920px) {
+  body {
+    overflow-x: hidden;
+  }
+  .NavbarMain {
+    height: 3vw;
+    width: 100vw;
+    background-color: rgb(235, 216, 192);
+    display: flex;
+    align-items: center;
+    padding: 0px 2vw;
+    position: relative;
+    justify-content: space-between;
+  }
+  .NavbarProfile {
+    width: 5vw;
+  }
+  .NavbarLogo img {
+    height: 1.2vw;
+  }
+  .NavbarBurger img {
+    height: 1.5vw;
+    padding: 0.1vw;
+    border-radius: 5px;
+    background-color: rgba(255, 200, 127, 0.151);
+    box-shadow: 0px 0px 5px 0.5px rgb(128, 128, 128);
+    cursor: pointer;
+  }
+  .NavbarUser {
+    height: 13vw;
+    background-color: rgb(129, 129, 129);
+    width: 15%;
+
+    text-align: end;
+    position: absolute;
+    right: 60%;
+    opacity: 0;
+    pointer-events: none;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.6s ease-in-out;
+    z-index: 9999;
+    display: flex;
+  }
+  .NavbarUser.open {
+    right: 0%;
+    opacity: 1;
+
+    pointer-events: auto;
+  }
+  .clNavbar {
+    height: 5%;
+    background-color: rgb(255, 200, 127);
+  }
+  .UserText {
+    padding: 0px 4px;
+    font-size: 1.2vw;
+    color: rgb(255, 255, 255);
+  }
+  .NavbarEmailBox p {
+    font-size: 1.2vw;
+    padding: 0px 4px;
+
+    margin-bottom: 3px;
+  }
+
+  .NavbarEmailBox button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 2vw;
+    width: 12vw;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 200, 127);
+    font-size: 1vw;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px black;
+    transition: 0.3s ease-in-out;
+  }
+  .NavbarEmailBox button:hover {
+    box-shadow: 0px 0px 5px 1px rgb(255, 200, 127);
+    background-color: rgb(190, 172, 139);
+  }
+  .SidebarMain {
+    background-color: aliceblue;
+    background-color: rgba(235, 216, 192, 0.753);
+  }
+  .Sidebar {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 10px 2px;
+    position: relative;
+  }
+  .Sidebar p {
+    font-size: 1.1vw;
+    cursor: pointer;
+  }
+  .AdminMain {
+    width: 100vw;
+    height: calc(100vh);
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .AdminBox {
+    width: 45%;
+    padding: 15px;
+    height: 40vw;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 10px;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+  }
+  .AdminAnalizeBox {
+    width: 45%;
+    padding: 15px;
+    height: 40vw;
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+  }
+  .AdminTaskBox {
+    width: 15vw;
+    height: 10vw;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    box-shadow: 0px 0px 15px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .AdminTaskBox p {
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .AdminTaskBox h3 {
+    font-size: 1.5vw;
+  }
+  .AdminTaskBox img {
+    height: 5vw;
+
+    margin-bottom: 10px;
+  }
+  .LoginMain {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    display: flex;
+  }
+
+  .RegisterMain {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    display: flex;
+  }
+
+  .LoginCard {
+    width: 90%;
+    height: 100vw;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin: auto;
+
+    border-radius: 10px;
+  }
+
+  .RegisterCard {
+    width: 90%;
+    height: 100vw;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin: auto;
+
+    border-radius: 10px;
+  }
+
+  .loginP {
+    font-size: 5vw;
+    margin-left: 20px;
+    margin-bottom: 6.5vw;
+  }
+
+  .registerP {
+    font-size: 4.7vw;
+    margin-left: 20px;
+    margin-bottom: 6.5vw;
+  }
+
+  .LoginInputFields {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+
+  .RegisterInputfield {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+  }
+
+  .LoginInputFields label {
+    font-size: 4.5vw;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .RegisterInputfield label {
+    font-size: 4.3vw;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+
+  .RegisterInputfield input {
+    border: none;
+    outline: none;
+    height: 6vw;
+    background-color: rgba(226, 226, 226, 0.459);
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .LoginInputFields input {
+    border: none;
+    outline: none;
+    height: 6vw;
+    background-color: rgba(226, 226, 226, 0.459);
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .RegisterRadioBtn {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+  }
+
+  .radioreg {
+    display: flex;
+    align-items: center;
+  }
+
+  .radioreg label {
+    font-size: 3.3vw;
+  }
+
+  .LoginCard form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .RegisterCard form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .loginForgetPassword {
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 12vw;
+  }
+
+  .loginForgetPassword p {
+    color: rgba(255, 0, 0, 0.795);
+    cursor: pointer;
+    font-size: 3.5vw;
+  }
+
+  .loginBTN {
+    width: 40%;
+    height: 7vw;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    font-size: 3.5vw;
+    color: rgba(0, 0, 0, 0.678);
+    margin: 0 auto;
+  }
+
+  .registerBTN {
+    width: 40%;
+    height: 7vw;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+    font-size: 3.2vw;
+    color: rgba(0, 0, 0, 0.678);
+    margin: 0 auto;
+    margin-top: 1vw;
+  }
+
+  .registerBTN:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .loginBTN:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  .forNewUser {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3.5vw;
+  }
+
+  .forOldUser {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 3.5vw;
+  }
+
+  .forVisitor {
+    text-align: center;
+    font-size: 3vw;
+  }
+  .Footerh5 {
+    font-weight: 1600; 
+  }
+
+  /*  */
+
+    .adminESMain {
+    background-color: aliceblue;
+    height: calc(100vh - 1vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .UserDetails {
+    height: 90%;
+    width: 97%;
+ 
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.726);
+    background-color: rgb(235, 216, 192);
+    overflow: hidden;
+  }
+  .UserAdd {
+    height: 8%;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.616);
+    background-color: rgba(240, 255, 255, 0.39);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .UserAdd button img {
+    height: 1.3vw;
+    margin-right: 5px;
+  }
+  .UserAdd button {
+    font-size: 1vw;
+    display: flex;
+    height: 70%;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #69f59f;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.651);
+    border: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .UserSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .UserSearch input {
+    height: 10%;
+    width: 25%;
+    border-radius: 3px;
+    padding-left: 3px;
+    font-size: 1.5vw;
+
+    border: 1px solid rgba(0, 0, 0, 0.452);
+  }
+  .UserSearch p {
+    font-size: 1.5vw;
+  }
+  .UserInfo {
+    padding: 0px 5px;
+  }
+  .UserInfoBoxOuter {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  .UserInfoBox {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+  }
+  .p1 {
+    width: 5%;
+    margin-right: 2%;
+  }
+  .p2 {
+    width: 22%;
+    margin-right: 7%;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .p3 {
+    width: 22%;
+    margin-right: 5%;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .p4 {
+    width: 22%;
+    margin-right: 7%;
+  }
+  .p5 {
+    border-right: 1px solid #707070;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .p5 img {
+    width: 25%;
+  }
+  .UserInfoBox p {
+    font-size: 1.5vw;
+    padding: 2px;
+    padding-left: 2px;
+    border-left: 1px solid #707070;
+  }
+  .adminAppointmentMain {
+    background-color: aliceblue;
+    height: calc(100vh - 1vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .VisitorDetails {
+    height: 90%;
+    width: 97%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.726);
+    background-color: rgb(235, 216, 192);
+    overflow: hidden;
+  }
+  .adminUser {
+    color: #4e4e4ebd;
+  }
+  .adminUser .p5 img {
+    filter: grayscale(100%);
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+  .LoadingMain {
+    display: flex;
+    height: calc(100vh - 8.7vh);
+    align-items: center;
+    justify-content: center;
+  }
+  .LoadingBox {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: conic-gradient(
+      rgb(194, 194, 194) 1%,
+      black 100%,
+      transparent 100%
+    );
+    display: flex;
+    align-items: center;
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .LoadingBoxInside {
+    height: 5px;
+    width: 5px;
+  }
+  .LoadingBoxInside2 {
+    height: 50px;
+    width: 50px;
+
+    border-radius: 50%;
+    background-color: rgb(194, 194, 194);
+  }
+  .Loadingh1 {
+    animation: Loadingh1 1.1s linear infinite;
+  }
+  @keyframes Loadingh1 {
+    0% {
+      color: black;
+    }
+    50% {
+      color: rgba(0, 0, 0, 0.39);
+    }
+    100% {
+      color: black;
+    }
+  }
+  .UnauthorizedMain {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+    background-color: #ffffff;
+  }
+  .UnauthorizedMainInside {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .UnauthorizedMainInside h2 {
+    font-size: 4.5vw;
+  }
+  .UnauthorizedMainInside p {
+    margin-top: 10px;
+    font-size: 3vw;
+  }
+  .UnauthorizedMainInside p a {
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+  }
+}

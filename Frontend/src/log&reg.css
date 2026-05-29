@@ -1,0 +1,1470 @@
+.Rigisterlink {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+   .OTPcard form button{
+cursor: pointer;
+}
+ .OTPcard form button:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    background-color: rgba(250, 235, 215, 0.568);
+ }
+.Loginlink{
+    text-decoration: none;
+     color: blue;
+    cursor: pointer;
+}.Visitorlink{
+     text-decoration: none;
+     color: blue;
+    cursor: pointer;
+}
+.RegisterCard {
+    user-select: none;
+}
+
+.LoginCard {
+    user-select: none;
+}
+.Sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+    
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .registerBTN {
+        width: 40%;
+        height: 7vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 3.2vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-top: 6vw;
+    }
+}
+}
+@media (min-width: 480px) and (max-width: 580px) {
+    .LoginMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .RegisterMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .LoginCard {
+        width: 90%;
+        height: 100vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+
+    }
+
+    .RegisterCard {
+        width: 90%;
+        height: 100vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+    }
+
+    .registerP {
+        font-size: 5vw;
+        margin-left: 20px;
+        margin-bottom: 6.5vw;
+    }
+
+    .RegisterInputfield label {
+        font-size: 4.5vw;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .RegisterInputfield input {
+        border: none;
+        outline: none;
+        height: 6vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .RegisterRadioBtn {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px;
+    }
+
+    .radioreg {
+        display: flex;
+        align-items: center;
+    }
+
+    .radioreg label {
+        font-size: 3.7vw;
+    }
+
+    .registerBTN {
+        width: 40%;
+        height: 7vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 3.5vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-top: 7vw;
+    }
+
+    .registerBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .RegisterCard form {
+        display: flex;
+        flex-direction: column
+    }
+
+    .RegisterInputfield {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .forOldUser {
+         margin-top: 30px;
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    .loginP {
+        font-size: 4vw;
+        margin-left: 20px;
+        margin-bottom: 8vw;
+    }
+
+
+    .LoginInputFields {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .LoginInputFields label {
+        font-size: 3.5vw;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .LoginInputFields input {
+        border: none;
+        outline: none;
+        height: 6vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .LoginCard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loginForgetPassword {
+        display: flex;
+        margin: 0px 20px;
+        align-items: center;
+        justify-content: right;
+        margin-bottom: 17vw;
+    }
+
+    .loginForgetPassword p {
+        color: rgba(255, 0, 0, 0.795);
+        cursor: pointer;
+        font-size: 3.0vw;
+
+    }
+
+    .loginBTN {
+        width: 40%;
+        height: 7vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 3.0vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+    }
+
+    .loginBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .forNewUser {
+         margin-top: 30px;
+        text-align: center;
+        font-size: 3.0vw;
+    }
+
+    .forVisitor {
+        text-align: center;
+        font-size: 3.0vw;
+
+    }
+}
+
+@media (min-width: 580px) and (max-width: 768px) {
+    .RegisterMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .RegisterCard {
+        width: 80%;
+        height: 90vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+    }
+
+    .registerP {
+        font-size: 4vw;
+        margin-left: 20px;
+        margin-bottom: 6vw;
+    }
+
+    .RegisterInputfield label {
+        font-size: 3.5vw;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .RegisterInputfield input {
+        border: none;
+        outline: none;
+        height: 6vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .RegisterRadioBtn {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px;
+    }
+
+    .radioreg {
+        display: flex;
+        align-items: center;
+    }
+
+    .radioreg label {
+        font-size: 2.7vw;
+
+    }
+
+    .registerBTN {
+        width: 30%;
+        height: 6vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 2.5vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-top: 4vw;
+    }
+
+    .registerBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .RegisterCard form {
+        display: flex;
+        flex-direction: column
+    }
+
+    .RegisterInputfield {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .forOldUser {
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .LoginMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .LoginCard {
+        width: 80%;
+        height: 80vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+
+    }
+
+    .loginP {
+        font-size: 4vw;
+        margin-left: 20px;
+        margin-bottom: 3vw;
+    }
+
+    .LoginInputFields {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .LoginInputFields label {
+        font-size: 3.0vw;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .LoginInputFields input {
+        border: none;
+        outline: none;
+        height: 6vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .LoginCard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loginForgetPassword {
+        display: flex;
+        margin: 0px 20px;
+        align-items: center;
+        justify-content: right;
+        margin-bottom: 12vw;
+    }
+
+    .loginForgetPassword p {
+        color: rgba(255, 0, 0, 0.795);
+        cursor: pointer;
+        font-size: 2.5vw;
+
+    }
+
+    .loginBTN {
+        width: 30%;
+        height: 6vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 2.5vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+    }
+
+    .loginBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .forNewUser {
+         margin-top: 30px;
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .forVisitor {
+        text-align: center;
+        font-size: 2.5vw;
+
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1220px) {
+    .RegisterMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .RegisterCard {
+        width: 80%;
+        height: 80vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+    }
+
+    .registerP {
+        font-size: 4vw;
+        margin-left: 20px;
+        margin-bottom: 3vw;
+    }
+
+    .RegisterInputfield label {
+        font-size: 3.5vw;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .RegisterInputfield input {
+        border: none;
+        outline: none;
+        height: 6vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .RegisterRadioBtn {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px;
+    }
+
+    .radioreg {
+        display: flex;
+        align-items: center;
+    }
+
+    .radioreg label {
+        font-size: 2.7vw;
+
+    }
+
+    .registerBTN {
+        width: 35%;
+        height: 6vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 2.5vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-top: 2vw;
+    }
+
+    .registerBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .RegisterCard form {
+        display: flex;
+        flex-direction: column
+    }
+
+    .RegisterInputfield {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .forOldUser {
+        text-align: center;
+        font-size: 3.0vw;
+    }
+
+
+    .LoginMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .LoginCard {
+        width: 80%;
+        height: 80vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+
+    }
+
+    .loginP {
+        font-size: 4vw;
+        margin-left: 20px;
+        margin-bottom: 3vw;
+    }
+
+    .LoginInputFields {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .LoginInputFields label {
+        font-size: 3.5vw;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    .LoginInputFields input {
+        border: none;
+        outline: none;
+        height: 6vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .LoginCard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loginForgetPassword {
+        display: flex;
+        margin: 0px 20px;
+        align-items: center;
+        justify-content: right;
+        margin-bottom: 7vw;
+    }
+
+    .loginForgetPassword p {
+        color: rgba(255, 0, 0, 0.795);
+        cursor: pointer;
+        font-size: 3.0vw;
+
+    }
+
+    .loginBTN {
+        width: 40%;
+        height: 7vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 3.0vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+    }
+
+    .loginBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .forNewUser {
+        text-align: center;
+        font-size: 3.0vw;
+    }
+
+    .forVisitor {
+        text-align: center;
+        font-size: 3.0vw;
+
+    }
+
+    .forOldUser {
+        text-align: center;
+        font-size: 2.0vw;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1090px) {
+      .LoginMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .LoginCard {
+    width: 60%;
+        height: 60vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+
+    }
+
+    .loginP {
+        font-size: 2.7vw;
+        margin-left: 20px;
+        margin-bottom: 3vw;
+    }
+
+    .LoginInputFields {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .LoginInputFields label {
+        font-size: 2vw;
+          margin-bottom: 20px;
+        margin-top: 10px;
+         color: rgba(0, 0, 0, 0.8);
+    }
+
+    .LoginInputFields input {
+        border: none;
+        outline: none;
+          height: 4vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .LoginCard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loginForgetPassword {
+        display: flex;
+        margin: 0px 20px;
+        align-items: center;
+        justify-content: right;
+        margin-bottom: 7vw;
+    }
+
+    .loginForgetPassword p {
+        color: rgba(255, 0, 0, 0.795);
+        cursor: pointer;
+        font-size: 2.0vw;
+
+    }
+
+    .loginBTN {
+        width: 30%;
+        height: 4vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 2.0vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    .loginBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .forNewUser {
+        text-align: center;
+        font-size: 2.0vw;
+    }
+
+    .forVisitor {
+        text-align: center;
+        font-size: 3.0vw;
+
+    }
+
+    .forOldUser {
+        text-align: center;
+        font-size: 2.0vw;
+    }
+    
+    .RegisterMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .RegisterCard {
+        width: 60%;
+        height: 60vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+    }
+
+    .registerP {
+        font-size: 2.7vw;
+        margin-left: 20px;
+        margin-bottom: 2vw;
+    }
+
+    .RegisterInputfield label {
+        font-size: 2vw;
+        margin-bottom: 20px;
+        margin-top: 10px;
+          color: rgba(0, 0, 0, 0.8);
+    }
+
+    .RegisterInputfield input {
+        border: none;
+        outline: none;
+        height: 4vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .RegisterRadioBtn {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px;
+    }
+
+    .radioreg {
+        display: flex;
+        align-items: center;
+    }
+
+    .radioreg label {
+        font-size: 2vw;
+
+    }
+
+    .registerBTN {
+        width: 30%;
+        height: 4vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 2vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-top: 2vw;
+        margin-bottom: 10px;
+    }
+
+    .registerBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .RegisterCard form {
+        display: flex;
+        flex-direction: column
+    }
+
+    .RegisterInputfield {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .forVisitor {
+        text-align: center;
+        font-size: 2.0vw;
+
+    }
+
+}
+
+@media (min-width: 1090px) and (max-width: 1520px) {
+
+    .RegisterMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .RegisterCard {
+        width: 60%;
+        height: 60vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+    }
+
+    .registerP {
+        font-size: 2vw;
+        margin-left: 20px;
+        margin-bottom: 2vw;
+    }
+
+    .RegisterInputfield label {
+        font-size: 2vw;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .RegisterInputfield input {
+        border: none;
+        outline: none;
+        height: 4vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .RegisterRadioBtn {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px;
+    }
+
+    .radioreg {
+        display: flex;
+        align-items: center;
+    }
+
+    .radioreg label {
+        font-size: 2vw;
+
+    }
+
+    .registerBTN {
+        width: 30%;
+        height: 4vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 2vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-top: 6vw;
+    }
+
+    .registerBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .RegisterCard form {
+        display: flex;
+        flex-direction: column
+    }
+
+    .RegisterInputfield {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .forVisitor {
+        text-align: center;
+        font-size: 2.0vw;
+
+    }
+
+    .forOldUser {
+        text-align: center;
+        font-size: 2.0vw;
+    }
+
+
+    .LoginMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .LoginCard {
+        width: 30%;
+        height: 30vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+
+    }
+
+    .loginP {
+        font-size: 1vw;
+        margin-left: 20px;
+        margin-bottom: 3vw;
+    }
+
+    .LoginInputFields {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .LoginInputFields label {
+        font-size: 1.3vw;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .LoginInputFields input {
+        border: none;
+        outline: none;
+        height: 2vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .LoginCard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loginForgetPassword {
+        display: flex;
+        margin: 0px 20px;
+        align-items: center;
+        justify-content: right;
+        margin-bottom: 5vw;
+    }
+
+    .loginForgetPassword p {
+        color: rgba(255, 0, 0, 0.795);
+        cursor: pointer;
+        font-size: 1vw;
+
+    }
+
+    .loginBTN {
+        width: 30%;
+        height: 2vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 1vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+    }
+
+    .loginBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .forNewUser {
+        text-align: center;
+        font-size: 1vw;
+    }
+
+
+}
+
+@media (min-width: 1520px) and (max-width: 1920px) {
+
+    .RegisterMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .RegisterCard {
+        width: 30%;
+        height: 30vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+    }
+
+    .registerP {
+        font-size: 2vw;
+        margin-left: 20px;
+        margin-bottom: 1vw;
+    }
+
+    .RegisterInputfield label {
+        font-size: 1.3vw;
+        margin-bottom: 20px;
+        margin-top: 5px;
+          color: rgba(0, 0, 0, 0.8);
+    }
+
+    .RegisterInputfield input {
+        border: none;
+        outline: none;
+        height: 1.5vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .RegisterRadioBtn {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 0px;
+    }
+
+    .radioreg {
+        display: flex;
+        align-items: center;
+    }
+
+    .radioreg label {
+        font-size: 1vw;
+
+    }
+
+    .registerBTN {
+        width: 20%;
+        height: 2vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 1vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-top: 4vw;
+        margin-bottom: 10px;
+    }
+
+    .registerBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .RegisterCard form {
+        display: flex;
+        flex-direction: column
+    }
+
+    .RegisterInputfield {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .forVisitor {
+        text-align: center;
+        font-size: 1.0vw;
+
+    }
+
+    .forOldUser {
+        text-align: center;
+        font-size: 1.0vw;
+    }
+
+
+    .LoginMain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .LoginCard {
+        width: 30%;
+        height: 30vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+
+        border-radius: 10px;
+
+    }
+
+    .loginP {
+        font-size: 2vw;
+        margin-left: 20px;
+        margin-bottom: 3vw;
+    }
+
+    .LoginInputFields {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+
+    .LoginInputFields label {
+        font-size: 1.3vw;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .LoginInputFields input {
+        border: none;
+        outline: none;
+        height: 2vw;
+        background-color: rgba(226, 226, 226, 0.459);
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .LoginCard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loginForgetPassword {
+        display: flex;
+        margin: 0px 20px;
+        align-items: center;
+        justify-content: right;
+        margin-bottom: 5vw;
+    }
+
+    .loginForgetPassword p {
+        color: rgba(255, 0, 0, 0.795);
+        cursor: pointer;
+        font-size: 1vw;
+
+    }
+
+    .loginBTN {
+        width: 30%;
+        height: 2vw;
+        border-radius: 50px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.445);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.288);
+        font-size: 1vw;
+        color: rgba(0, 0, 0, 0.678);
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .loginBTN:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .forNewUser {
+        text-align: center;
+        font-size: 1vw;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+    .OTPmain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .OTPcard {
+        width: 90%;
+        height: 40vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .OTPcard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OTPcard form button {
+        font-size: 3.6vw;
+        margin: auto;
+        margin-top: 4vw;
+        width: 30%;
+        height: 7vw;
+        border-radius: 5px;
+        border: none;
+        color: #000000b9;
+        background-color: rgba(255, 255, 255, 0.575);
+    }
+
+    .OTPp {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .OTPinputfield {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .OTPinputfield input {
+        width: 90%;
+        background-color: rgba(156, 156, 156, 0.459);
+        border: none;
+        border-radius: 5px;
+        height: 8vw;
+
+        text-align: center;
+        outline-color: rgba(0, 0, 0, 0.377);
+    }
+
+    .OTPinputfield input::placeholder {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 580px) {
+    .OTPmain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .OTPcard {
+        width: 60%;
+        height: 35vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .OTPcard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OTPcard form button {
+        font-size: 3vw;
+        margin: auto;
+        margin-top: 4vw;
+        width: 30%;
+        height: 6vw;
+        border-radius: 5px;
+        border: none;
+        color: #000000b9;
+        background-color: rgba(255, 255, 255, 0.575);
+    }
+
+    .OTPp {
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .OTPinputfield {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .OTPinputfield input {
+        width: 90%;
+        background-color: rgba(156, 156, 156, 0.459);
+        border: none;
+        border-radius: 5px;
+        height: 7vw;
+
+        text-align: center;
+        outline-color: rgba(0, 0, 0, 0.377);
+    }
+
+    .OTPinputfield input::placeholder {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 580px) and (max-width: 786px) {
+    .OTPmain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .OTPcard {
+        width: 60%;
+        height: 35vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .OTPcard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OTPcard form button {
+        font-size: 3vw;
+        margin: auto;
+        margin-top: 4vw;
+        width: 30%;
+        height: 6vw;
+        border-radius: 5px;
+        border: none;
+        color: #000000b9;
+        background-color: rgba(255, 255, 255, 0.575);
+    }
+
+    .OTPp {
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .OTPinputfield {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .OTPinputfield input {
+        width: 90%;
+        background-color: rgba(156, 156, 156, 0.459);
+        border: none;
+        border-radius: 5px;
+        height: 7vw;
+
+        text-align: center;
+        outline-color: rgba(0, 0, 0, 0.377);
+    }
+
+    .OTPinputfield input::placeholder {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1220px) {
+    .OTPmain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .OTPcard {
+        width: 40%;
+        height: 25vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .OTPcard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OTPcard form button {
+        font-size: 1.4vw;
+        margin: auto;
+        margin-top: 4vw;
+        width: 30%;
+        height: 3vw;
+        border-radius: 5px;
+        border: none;
+        color: #000000b9;
+        background-color: rgba(255, 255, 255, 0.575);
+    }
+
+    .OTPp {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .OTPinputfield {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .OTPinputfield input {
+        width: 90%;
+        background-color: rgba(156, 156, 156, 0.459);
+        border: none;
+        border-radius: 5px;
+        height: 3vw;
+
+        text-align: center;
+        outline-color: rgba(0, 0, 0, 0.377);
+    }
+
+    .OTPinputfield input::placeholder {
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1220px) and (max-width: 1920px) {
+    .OTPmain {
+        height: 100vh;
+        width: 100vw;
+        background: linear-gradient(135deg, #11998e, #38ef7d);
+        display: flex;
+    }
+
+    .OTPcard {
+        width: 40%;
+        height: 20vw;
+        background-color: rgba(255, 255, 255, 0.37);
+        margin: auto;
+        border-radius: 10px;
+    }
+
+    .OTPcard form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .OTPcard form button {
+        font-size: 1.2vw;
+        margin: auto;
+        margin-top: 4vw;
+        width: 20%;
+        height: 2vw;
+        border-radius: 15px;
+        border: none;
+        color: #000000b9;
+        background-color: rgba(255, 255, 255, 0.575);
+    }
+
+    .OTPp {
+        text-align: center;
+        font-size: 2.5vw;
+    }
+
+    .OTPinputfield {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .OTPinputfield input {
+        width: 90%;
+        background-color: rgba(156, 156, 156, 0.459);
+        border: none;
+        border-radius: 5px;
+        height: 3vw;
+font-size: 1.4vw;
+        text-align: center;
+        outline-color: rgba(0, 0, 0, 0.377);
+    }
+
+    .OTPinputfield input::placeholder {
+        display: flex;
+        margin: 0 auto;
+        
+    }
+}
